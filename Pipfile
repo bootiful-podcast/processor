@@ -12,7 +12,7 @@ boto3 = "*"
 pydub = "*"
 requests = "*"
 flask = "*"
-pyinstaller = "*"
+pyinstaller = ">=3.6"
 black = "*"
 
 [requires]
