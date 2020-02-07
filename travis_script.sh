@@ -19,6 +19,7 @@ rm -rf ${tmp_env_script}
 echo "export PODCAST_RMQ_ADDRESS=${PODCAST_RMQ_ADDRESS}" >>  $tmp_env_script
 echo "export AWS_SECRET_ACCESS_KEY=${AWS_SECRET_ACCESS_KEY}" >>  $tmp_env_script
 echo "export AWS_ACCESS_KEY_ID=${AWS_ACCESS_KEY_ID}" >>  $tmp_env_script
+echo "export CONFIG_FILE_NAME=${CONFIG_FILE_NAME}" >>  $tmp_env_script
 
 
 ##

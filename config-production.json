@@ -4,6 +4,5 @@
   "podcast-output-s3-bucket": "podcast-output-bucket",
   "podcast-assets-s3-bucket": "podcast-assets-bucket",
   "podcast-assets-s3-bucket-folder": "062019",
-  "podcast-input-s3-bucket": "podcast-input-bucket",
-  "rmq-service-instance-name": "podcast-production-processor-rmq"
+  "podcast-input-s3-bucket": "podcast-input-bucket"
 }
