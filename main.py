@@ -104,7 +104,7 @@ def rmq_background_thread_runner():
 
         return reply
 
-    address_key = "RMQ_ADDRESS"
+    address_key = "PODCAST_RMQ_ADDRESS"
     assert address_key in os.environ, (
         'you must set the "%s" environment variable!' % address_key
     )
